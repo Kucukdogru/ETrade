@@ -11,7 +11,8 @@ namespace Entities.Concrete
     // Other columns
     public class Basket : IEntity
     {
-        public int Id { get; set; }
+        // bigint = long
+        public long Id { get; set; }
 
         public int ProductId { get; set; }
 
